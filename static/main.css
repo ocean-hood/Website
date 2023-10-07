@@ -1,5 +1,17 @@
 body {
   font-family: 'Poppins', sans-serif;
-  background-image: linear-gradient(rgba(0, 0, 25, 0.9), rgba(0, 0, 25, 0.9)), url('./bg2.jpg');
   background-size: cover;
+}
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  backface-visibility: 0.7;
+  filter: brightness(40%);
 }
