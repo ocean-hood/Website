@@ -1,4 +1,4 @@
-.body-text{
+.body-text {
   position: absolute;
   top: 20%;
   left: 50%;
@@ -7,29 +7,36 @@
   text-align: center;
   padding: 0 30px;
   color: #fdfbfe;
-  padding-bottom: 0;
   margin-bottom: 0;
 }
-.body-text div{
+.body-text div {
   margin-top: 0;
   font-size: 45px;
   font-weight: 600;
-  padding: 10px;
-  padding-top: 0;
+  padding: 0 10px 10px;
 }
-.header01{
+.header01 {
   font-size: 50px;
 }
-.sub-header01{
+.sub-header01 {
   font-size: 40px;
 }
 body {
   background-color: #eee
 }
-.choice-card-container{
+.choice-card-container {
   display: flex;
   justify-content: center;
 }
-.choice-card{
-  background-color: ;
+
+.mega-card-div {
+  display: flex;
+  flex-direction: row;
+  padding-top: 23%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.card-container {
+  width: 33%;
 }

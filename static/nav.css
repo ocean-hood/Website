@@ -13,13 +13,13 @@ nav{
 }
 nav .wrapper{
   position: relative;
-  max-width: 1300px;
+  max-width
+  : 1300px;
   padding: 0px 30px;
   height: 70px;
   line-height: 70px;
   margin: auto;
   display: flex;
-  align-items: center;
   justify-content: space-between;
 }
 .wrapper .logo a{

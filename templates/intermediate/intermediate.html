@@ -5,4 +5,105 @@
 {% block content %}
 <link rel="stylesheet" href="{% static 'main.css'%}">
 <link rel="stylesheet" href="{% static 'nav.css'%}">
+<link rel="stylesheet" href="{% static 'intermediate.css'%}">
+<ul class="cards"> 
+  <div class="row01">
+    <li>
+      <a href="{% url 'paper1' %}" class="card">{% csrf_token %}
+        <img src="{% static 'bg2.jpg' %}" class=card__image" alt="" />
+        <div class="card__overlay">
+          <div class="card__header">                    
+            <img class="card__thumb" src="{% static 'bg2.jpg' %}" alt="" />
+            <div class="card__header-text">
+              <h3 class="card__title">Plastic pollution in the ocean</h3>            
+              <span class="card__status">1 hour ago</span>
+            </div>
+          </div>
+          <p class="card__description">How plastic pollution directly affects the ocean microbes.</p>
+        </div>
+      </a>      
+    </li>
+    <li>
+      <a href="" class="card">
+        <img src="{% static 'bg2.jpg'%}" class="card__image" alt="" />
+        <div class="card__overlay">
+          <div class="card__header">                     
+            <img class="card__thumb" src="{% static 'bg2.jpg '%}" alt="" />
+            <div class="card__header-text">
+              <h3 class="card__title">Jessica Parker</h3>
+              <span class="card__tagline">Lorem ipsum dolor sit amet consectetur</span>            
+              <span class="card__status">1 hour ago</span>
+            </div>
+          </div>
+          <p class="card__description">Plastic Pollution in the Ocean</p>
+        </div>
+      </a>
+    </li>
+  </div>
+  <div class="row01">
+
+    <li>
+      <a href="" class="card">
+        <img src="{% static 'bg2.jpg'%}" class="card__image" alt="" />
+        <div class="card__overlay">
+          <div class="card__header">              
+            <img class="card__thumb" src="{% static 'bg2.jpg' %}" alt="" />
+            <div class="card__header-text">
+              <h3 class="card__title">kim Cattrall</h3>
+              <span class="card__status">3 hours ago</span>
+            </div>          
+          </div>
+          <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
+        </div>
+      </a>
+    </li>   
+    <li>
+      <a href="" class="card">
+        <img src="{% static 'bg2.jpg'%}" class="card__image" alt="" />
+        <div class="card__overlay">
+          <div class="card__header">               
+            <img class="card__thumb" src="{% static 'bg2.jpg' %}" alt="" />
+            <div class="card__header-text">
+              <h3 class="card__title">kim Cattrall</h3>
+              <span class="card__status">3 hours ago</span>
+            </div>          
+          </div>
+          <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
+        </div>
+      </a>
+    </li>  
+  </div>
+  <div>
+    <li>
+      <a href="" class="card">
+        <img src="{% static 'bg2.jpg'%}" class="card__image" alt="" />
+        <div class="card__overlay">
+          <div class="card__header">              
+            <img class="card__thumb" src="{% static 'bg2.jpg '%}" alt="" />
+            <div class="card__header-text">
+              <h3 class="card__title">kim Cattrall</h3>
+              <span class="card__status">3 hours ago</span>
+            </div>          
+          </div>
+          <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
+        </div>
+      </a>
+    </li>  
+    <li>
+      <a href="" class="card">
+        <img src="{% static 'bg2.jpg'%}" class="card__image" alt="" />
+        <div class="card__overlay">
+          <div class="card__header">              
+            <img class="card__thumb" src="{% static 'bg2.jpg' %}" alt="" />
+            <div class="card__header-text">
+              <h3 class="card__title">kim Cattrall</h3>
+              <span class="card__status">3 hours ago</span>
+            </div>          
+          </div>
+          <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
+        </div>
+      </a>
+    </li>   
+  </div>
+</ul>
 {% endblock %}

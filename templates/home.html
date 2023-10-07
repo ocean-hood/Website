@@ -5,19 +5,28 @@ OceanGarden|Home
 {% load static %}
 {% block content %}
 <link rel="stylesheet" href="{% static 'home.css'%}">
+<link rel="stylesheet" href="{% static 'main.css'%}">
 <div class="body-text">
   <div class="title"><span class="header01">Ocean Garden</a></span></div>
-  <div class="sub-title"><span class="sub-header01">An Interactive Learning platform</span></div>
+  <div class="sub-title"><span class="sub-header01">An Interactive Learning platform.</span></div>
 </div>
-<div class="choice-card-container">
-    <div class="choice-card">
-        <div class="choice-card-title">
-            <h1>Beginner</h1>
+<div class="mega-card-div">
+      <div class="card-container">
+          <a href="{% url 'begineer'%}" class="hero-image-container">
+            <img class="hero-image" src="https://i.postimg.cc/NfR2yhNs/image-equilibrium.jpg" alt="Spinning glass cube"/>
+          </a>
         </div>
-        <div class="choice-info">
-            <h4>Recommended for Ages 10 and below</h4>
-        </div>
-    </div>
+      <div class="card-container">
+        <a href="{% url 'intermediate'%}" class="hero-image-container">
+          <img class="hero-image" src="https://i.postimg.cc/NfR2yhNs/image-equilibrium.jpg" alt="Spinning glass cube"/>
+        </a>
+      </div>
+      <div class="card-container">
+        <a href="{% url 'advanced'%}" class="hero-image-container">
+          <img class="hero-image" src="https://i.postimg.cc/NfR2yhNs/image-equilibrium.jpg" alt="Spinning glass cube"/>
+        </a>
+      </div>
+  </div>
 </div>
 </div>
 {% endblock %}
