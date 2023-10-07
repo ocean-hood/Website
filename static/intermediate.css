@@ -22,18 +22,20 @@ body {
   justify-items: center;
   padding-left: 10%;
   padding-right: 10%;
+  border: no;
 }
 
 .card {
   position: relative;
   display: block;
   height: 100%;  
-  border-radius: calc(var(--curve) * 1px);
+  border: none;
   overflow: hidden;
   text-decoration: none;
   width: 300px;
   height: 400px;
   margin-bottom: 10%;
+  border-radius: 15px;
 }
 
 .card__image {      
@@ -116,7 +118,7 @@ body {
 .card__description {
   padding: 0 2em 2em;
   margin: 0;
-  color: #D7BDCA;
+  color: black;
   font-family: "MockFlowFont";   
   display: -webkit-box;
   -webkit-box-orient: vertical;

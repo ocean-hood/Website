@@ -18,10 +18,13 @@
 .header01 {
   font-size: 50px;
   margin-top: 10%;
+  padding-bottom: 0%;
+  margin-bottom: 0%;
 }
 .sub-header01 {
   font-size: 25px;
-  margin-top: 
+  margin-top: 0;
+  padding-top: 0; 
 }
 .choice-card-container {
   display: flex;
@@ -38,4 +41,7 @@
 
 .card-container {
   width: 33%;
+}
+.title{
+  padding: none;
 }
