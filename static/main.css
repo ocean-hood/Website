@@ -1,7 +1,5 @@
-body{
-  background-color: white;
-  font-family: 'Poppins', sans-serif;;
-}
-nav{
-  background-color: blue;
+body {
+  font-family: 'Poppins', sans-serif;
+  background-image: linear-gradient(rgba(0, 0, 25, 0.9), rgba(0, 0, 25, 0.9)), url('./bg2.jpg');
+  background-size: cover;
 }

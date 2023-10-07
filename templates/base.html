@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,300;1,400&family=Roboto+Mono:wght@200;400;700&display=swap" rel="stylesheet">
     {% load static %}
+    <link rel="stylesheet" href="{% static 'main.css'%}">
     <link rel="stylesheet" href="{% static 'nav.css'%}"> 
     <nav>
       <div class="wrapper">
@@ -37,10 +38,6 @@
         <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
       </div>
     </nav>
-    <div class="body-text">
-      <div class="title">Ocean Garden</div>
-      <div class="sub-title">A learning platform</div>
-    </div>
     {% load static %}
     {% block content %}{% endblock %}
   </body>

@@ -2,6 +2,11 @@
 {% block title %}
 OceanGarden|Home
 {% endblock %}
+{% load static %}
 {% block content %}
-<h1>Home Page</h1>
+<link rel="stylesheet" href="{% static 'home.css'%}">
+<div class="body-text">
+  <div class="title"><span class="header01">Ocean Garden</span></div>
+  <div class="sub-title"><span class="sub-header01">An Interactive Learning platform</span></div>
+</div>
 {% endblock %}
