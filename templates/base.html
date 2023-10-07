@@ -14,6 +14,7 @@
     {% load static %}
     <link rel="stylesheet" href="{% static 'main.css'%}">
     <link rel="stylesheet" href="{% static 'nav.css'%}"> 
+    <link rel="stylesheet" href="{% static 'waves.css'%}">
     <nav>
       <div class="wrapper">
         <div class="logo"><a href="{% url 'home'%}">Ocean Garden</a>{% csrf_token %}</div>
@@ -48,7 +49,17 @@
         <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
       </div>
     </nav>
- 
+    <div class="waveWrapper waveAnimation">
+      <div class="waveWrapperInner bgTop">
+        <div class="wave waveTop" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-top.png')"></div>
+      </div>
+      <div class="waveWrapperInner bgMiddle">
+        <div class="wave waveMiddle" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-mid.png')"></div>
+      </div>
+      <div class="waveWrapperInner bgBottom">
+        <div class="wave waveBottom" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-bot.png')"></div>
+      </div>
+    </div>
     {% load static %}
     {% block content %}{% endblock %}
   </body>

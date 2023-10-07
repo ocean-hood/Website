@@ -21,9 +21,6 @@
 .sub-header01 {
   font-size: 40px;
 }
-body {
-  background-color: #eee
-}
 .choice-card-container {
   display: flex;
   justify-content: center;
