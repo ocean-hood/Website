@@ -1,5 +1,5 @@
 from django.urls import path
-from .views import home_view , begineer_view , intermediate_view , expert_view , about_us_view , intermediate1_view , intermediate2_view , intermediate3_view , intermediate4_view , intermediate5_view , intermediate6_view , intermediate7_view
+from .views import home_view , begineer_view , intermediate_view , expert_view , about_us_view , intermediate1_view , intermediate2_view , intermediate3_view , intermediate4_view , intermediate5_view , intermediate6_view , intermediate7_view,advanced_view , contact_view , data_view
 
 urlpatterns = [
   path('' , home_view , name='home'),
@@ -14,4 +14,8 @@ urlpatterns = [
   path('paper5' , intermediate5_view , name='paper5'),
   path('paper6' , intermediate6_view , name='paper6'),
   path('paper7' , intermediate7_view , name='paper7'),
+  path('paperx' , advanced_view , name='advanced'),
+  path('contact' , contact_view , name='contact'),
+  path('data' , data_view , name='data'),
+
 ]

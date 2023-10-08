@@ -1,0 +1,60 @@
+{% extends 'base.html'%}
+{% block title %}
+{% load static %}
+{% endblock %}
+{% block content %}
+<link rel="stylesheet" href="{% static 'contact.css'%}" />
+<link rel="stylesheet" href="{% static 'waves2.css'%}">
+
+<div class="header">
+  <h1>CONTACT US</h1>
+</div>
+
+<section class="location">
+  <iframe
+      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7064.87029431602!2d85.30698985157096!3d27.703847870815316!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1856388affff%3A0x1eabf41d3eb15f65!2sNava%20Adarsha%20High%20School!5e0!3m2!1sen!2snp!4v1688898080726!5m2!1sen!2snp"
+      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+  <section class="contact-us">
+
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home" aria-hidden="true"></i>
+                    <span>
+                        <h5>Nava Adarsha Secondary School</h5>
+                        <p>Lyaku Marg, Kathmandu, Nepal</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                    <span>
+                        <h5>+977 9800000000</h5>
+                        <p>Phone Number</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                    <span>
+                        <h5>email@gmail.com</h5>
+                        <p>Email</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+
+                <form action="form-handler.php" method="post">
+                    <input type="text" name="name" placeholder="Enter your Name" required>
+                    <input type="email" name="email" placeholder="Enter your Email Address" required>
+                    <input type="text" name="subject" placeholder="Enter your Subject" required>
+                    <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                    <button type="Submit" class="join-us">Send Message</button>
+                </form>
+
+
+            </div>
+        </div>
+    </section>
+{% endblock %}

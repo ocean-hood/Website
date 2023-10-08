@@ -1,0 +1,71 @@
+{% extends 'base.html'%}
+{% load static %}
+{%block content%}
+<style>
+  body{
+    background-color: white;
+    background-image: none;
+  }
+</style>
+<link rel="stylesheet" href="{% static 'data.css'%}"/>
+<link rel="stylesheet" href="{% static 'blog.css'%}">
+<link rel="stylesheet" href="{% static 'main.css'%}">
+<link rel="stylesheet" href="{% static 'nav2.css'%}">
+<div class="container">
+  <div class="row">
+    <div class="container">
+      <div class="test_box box-01 col-xs-6 col-md-4">
+        <div class="inner">
+          <a href="#" class="test_click">
+            <div class="flex_this">
+              <h1 class="test_title">Title</h1>
+              <span class="test_link">Link</span>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="test_box box-02 col-xs-6 col-md-4">
+        <div class="inner">
+          <a href="#" class="test_click">
+            <div class="flex_this">
+              <h1 class="test_title">Title</h1>
+              <span class="test_link">Link</span>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="test_box box-03 col-xs-6 col-md-4">
+        <div class="inner">
+          <a href="#" class="test_click">
+            <div class="flex_this">
+              <h1 class="test_title">Title</h1>
+              <span class="test_link">Link</span>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="test_box box-04 col-xs-6 col-md-4">
+        <div class="inner">
+          <a href="#" class="test_click">
+            <div class="flex_this">
+              <h1 class="test_title">Title</h1>
+              <span class="test_link">Link</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="blog-container">
+  <div class="blog-body">
+    <p>
+      As the ocean becomes more and more polluted, its blue colour begins to fade and it takes on a brownish hue. This change in the ocean's reflecting spectra can be     observed using the spectrometers present in various satellites. Interestingly, this change also seems to be linked to a decrease in the ocean's oxygen levels and an increase in greenhouse gases like carbon dioxide. The health of the ocean is intricately tied to the quality of the air that we breathe. As the ocean gets polluted the blue colour is less reflected and the ocean appears brownish. This change in reflecting spectra can be seen in the spectrometer present in satellites. This also correlates with the decreasing oxygen level and increasing greenhouse gases such as carbon dioxide. So, it is clear that the ocean directly affects the quality of air we breathe.
+    </p>
+    <p>
+      Disclaimer: We were not able to assess spectrometer data from the satellite directly as a result we used the graphs found on the internet.
+    </p>
+  </div>
+</div>
+
+{%endblock%}

@@ -9,6 +9,7 @@
 
 body {
   font-family: 'Noto Sans JP', sans-serif;
+  background-color: azure;
 }
 
 .cards {
@@ -125,3 +126,7 @@ body {
   -webkit-line-clamp: 3;
   overflow: hidden;
 }    
+
+.blog-subheading h1{
+  font-size: 24px;
+}

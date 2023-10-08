@@ -13,7 +13,7 @@ def expert_view(request):
   return render(request , 'expert.html')
 
 def about_us_view(request):
-  return render(request , 'about.html')
+  return render(request , 'about-team.html')
 
 def intermediate1_view(request):
   return render(request , 'intermediate/1.html')
@@ -35,3 +35,13 @@ def intermediate6_view(request):
 
 def intermediate7_view(request):
   return render(request , 'intermediate/7.html')
+
+def advanced_view(request):
+  return render(request , 'advanced/advanced.html')
+
+
+def contact_view(request):
+  return render(request , 'contact.html')
+
+def data_view(request):
+  return render(request , 'data.html')

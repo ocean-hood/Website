@@ -6,8 +6,9 @@ OceanGarden|Home
 {% block content %}
 <link rel="stylesheet" href="{% static 'home.css'%}">
 <link rel="stylesheet" href="{% static 'main.css'%}">
+<link rel="stylesheet" href="{% static 'nav.css'%}">
 <div class="body-text">
-  <div class="title"><span class="header01">Ocean Garden</a></span></div>
+  <div class="title"><span class="header01">OCEAN GARDEN</a></span></div>
   <div class="sub-title"><span class="sub-header01">An Interactive Learning platform.Choose an option to get started.</span></div>
 </div>
 <div class="mega-card-div">
@@ -22,7 +23,7 @@ OceanGarden|Home
         </a>
       </div>
       <div class="card-container">
-        <a href="{% url 'advanced'%}" class="hero-image-container">
+        <a href="{% url 'advanced'%}" class="hero-image-container">{% csrf_token %}
           <img class="hero-image" src="{% static 'logo/advanced.png'%}" alt="Spinning glass cube"/>
         </a>
       </div>

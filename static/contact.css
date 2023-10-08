@@ -1,0 +1,91 @@
+.header {
+  font-family: "Poppins";
+  text-align: center;
+  color: whitesmoke;
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: 20px;
+  padding-top: 80px;
+  padding-bottom: 0;
+}
+
+.location {
+  width: 80%;
+  margin: auto;
+  padding-bottom: 40px;
+}
+
+.location iframe {
+  width: 100%;
+}
+
+.contact-us {
+  width: 80%;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.contact-col {
+  flex-basis: 48%;
+  margin-bottom: 30px;
+}
+
+.contact-col div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.contact-col div .fa {
+  font-size: 28px;
+  color: #3682f4;
+  margin: 10px 30px 10px 10px;
+}
+
+.contact-col div p {
+  padding: 0;
+}
+
+.contact-col div h5 {
+  font-size: 16px;
+  margin: 0;
+  color: #555;
+  font-weight: 400;
+}
+
+.join-us {
+  display: inline-block;
+  text-decoration: none;
+  color: #3682f4;
+  border: 1px solid #3682f4;
+  padding: 12px 34px;
+  font-size: 13px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+  transition: 0.7s ease;
+}
+
+.join-us:hover {
+  border: 1px solid #3682f4;
+  background: #3682f4;
+  color: #fff;
+  transition: 0.7s;
+}
+
+.row {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  /* Add this line */
+}
+
+.contact-col input,
+.contact-col textarea {
+
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 17px;
+  outline: none;
+  border: 1px solid #ccc;
+}

@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block title %}{% endblock %}
+{% load static %}
+{% block content %}
+  <link rel="stylesheet" href="{% static 'main.css' %}">
+  <link rel="stylesheet" href="{% static 'nav.css' %}">
+  <link rel="stylesheet" href="{% static 'about.css' %}">
+  <link rel="stylesheet" href="{% static 'waves2.css'%}">
+  <div class="blog-container">
+    <div class="blog-div">
+      <div class="blog-heading">
+        <h1>ABOUT US</h1>
+      </div>
+      <div class="blog-text"></div>
+      <div class="blog-body">
+        <h4>About the Project</h4>
+        <p>
+          The Ocean Garden project is a cause that we, a group of aspiring young students from various fields of study, have been working on to raise awareness about the urgent need for radical changes in society regarding ocean microbes and the vital role of national and international governance. Our aim is to find a noble solution to this ongoing issue, and we hope that our efforts will make a difference.
+        </p>
+
+      </div>
+    </div>
+  </div>
+
+{% endblock %}
